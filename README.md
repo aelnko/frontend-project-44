@@ -7,3 +7,6 @@
 
 ## Калькулятор
 [![Install](https://asciinema.org/a/540364.svg)](https://asciinema.org/a/540364)
+
+## Наибольший общий делитель
+[![Install](https://asciinema.org/a/540366.svg)](https://asciinema.org/a/540366)
