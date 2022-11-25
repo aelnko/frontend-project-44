@@ -4,3 +4,6 @@
 
 ## Проверка на чётность
 [![Install](https://asciinema.org/a/539875.svg)](https://asciinema.org/a/539875)
+
+## Калькулятор
+[![Install](https://asciinema.org/a/540364.svg)](https://asciinema.org/a/540364)
