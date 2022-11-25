@@ -13,3 +13,6 @@
 
 ## Арифметическая прогрессия
 [![Install](https://asciinema.org/a/540376.svg)](https://asciinema.org/a/540376)
+
+## Простое ли число?
+[![Install](https://asciinema.org/a/540378.svg)](https://asciinema.org/a/540378)
