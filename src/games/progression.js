@@ -4,8 +4,7 @@ import { randomizer } from '../utils.js';
 
 const task = 'What number is missing in the progression?';
 
-const getProgression = (element, diff) => {
-  const length = randomizer(5, 10);
+const getProgression = (element, diff, length) => {
   const progression = [element];
   while (progression.length !== length) {
     progression.push(progression[progression.length - 1] + diff);
@@ -16,7 +15,8 @@ const getProgression = (element, diff) => {
 const getQuestionAndAnswer = () => {
   const firstElement = randomizer(1, 20);
   const diff = randomizer(1, 10);
-  const progression = getProgression(firstElement, diff);
+  const length = randomizer(5, 10);
+  const progression = getProgression(firstElement, diff, length);
   const searchIndex = randomizer(0, progression.length - 1);
   const answer = String(progression[searchIndex]);
   progression[searchIndex] = '..';
