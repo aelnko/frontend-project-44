@@ -9,7 +9,7 @@ const isPrime = (number) => {
     return false;
   }
   for (let i = 2; i < number / 2; i += 1) {
-    if (!(number % i)) {
+    if (number % i === 0) {
       return false;
     }
   }
@@ -17,7 +17,7 @@ const isPrime = (number) => {
 };
 
 const getQuestionAndAnswer = () => {
-  const question = randomizer(1, 100);
+  const question = 14;
   const answer = isPrime(question) ? 'yes' : 'no';
   return [question, answer];
 };
