@@ -17,7 +17,7 @@ const isPrime = (number) => {
 };
 
 const getQuestionAndAnswer = () => {
-  const question = 14;
+  const question = randomizer(1, 100);
   const answer = isPrime(question) ? 'yes' : 'no';
   return [question, answer];
 };
