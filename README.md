@@ -8,7 +8,7 @@
 To install, run the following command:
 ```bash
 git clone git@github.com:aelnko/frontend-project-44.git
-cd brain-games
+cd frontend-project-44
 make
 npm link
 ```
